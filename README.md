@@ -42,18 +42,6 @@ You may use a different port if preferred.
 pnpm dev
 ```
 
-### 5. Build the project
-
-```bash
-pnpm build
-```
-
-### 6. Start the production server
-
-```bash
-pnpm start
-```
-
 ## Project Structure
 
 ```text
