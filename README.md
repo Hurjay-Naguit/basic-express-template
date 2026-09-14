@@ -24,19 +24,31 @@ cd basic-express-template
 pnpm install
 ```
 
-### 3. Start the development server
+### 3. Configure Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+PORT=5000
+```
+
+You may use a different port if preferred.
+
+**Note:** Environment variables are optional if your application does not require them.
+
+### 4. Start the development server
 
 ```bash
 pnpm dev
 ```
 
-### 4. Build the project
+### 5. Build the project
 
 ```bash
 pnpm build
 ```
 
-### 5. Start the production server
+### 6. Start the production server
 
 ```bash
 pnpm start
@@ -57,6 +69,16 @@ basic-express-template/
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
 └── tsconfig.json
+```
+
+## Optional: .gitignore
+
+Create a `.gitignore` file in the project root to prevent unnecessary or sensitive files from being committed.
+
+```gitignore
+node_modules/
+.env
+dist/
 ```
 
 ## License
