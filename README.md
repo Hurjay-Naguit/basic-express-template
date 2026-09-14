@@ -45,9 +45,18 @@ pnpm start
 ## Project Structure
 
 ```text
-src/
-├── app.ts
-└── server.ts
+basic-express-template/
+├── src/
+│   ├── app.ts
+│   ├── index.ts
+│   └── modules/
+│       └── tests/
+│           ├── tests.controller.ts
+│           └── tests.routes.ts
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+└── tsconfig.json
 ```
 
 ## License
