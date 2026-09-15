@@ -1,7 +1,7 @@
 import express from "express";
 import type { Express } from "express";
 
-import testRoutes from "./modules/tests/tests.routes.js";
+import testRoutes from "./routes/test.routes.js";
 
 const app: Express = express();
 
