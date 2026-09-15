@@ -4,10 +4,10 @@ A minimal Express.js application built with TypeScript. A clean foundation for l
 
 ## Tech Stack
 
-* Node.js
-* Express.js
-* TypeScript
-* pnpm
+- Node.js
+- Express.js
+- TypeScript
+- pnpm
 
 ## Getting Started
 
@@ -47,12 +47,16 @@ pnpm dev
 ```text
 basic-express-template/
 ├── src/
+│   └── config/
+│   └── controllers/
+│           └── test.controller.ts
+│   └── lib/
+│   └── middlewares/
+│   └── models/
+│   └── routes/
+│           └── test.routes.ts
 │   ├── app.ts
 │   ├── index.ts
-│   └── modules/
-│       └── tests/
-│           ├── tests.controller.ts
-│           └── tests.routes.ts
 ├── package.json
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
