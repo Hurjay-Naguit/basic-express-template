@@ -48,6 +48,8 @@ pnpm dev
 basic-express-template/
 ├── src/
 │   ├── index.ts
+├── docker-compose.yaml
+├── Dockerfile.json
 ├── package.json
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
