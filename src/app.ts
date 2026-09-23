@@ -3,8 +3,6 @@ import type { Express } from "express";
 
 import cors from "cors";
 
-import testRoutes from "./routes/test.routes.js";
-
 const app: Express = express();
 
 // MIDDLEWARES
@@ -17,6 +15,8 @@ app.use(
 );
 
 // ROUTES
-app.use("/api/test", testRoutes);
+app.get("/", (_req, res) => {
+  return res.status(200).json({ success: true, message: "Server is running!" });
+});
 
 export default app;

@@ -47,15 +47,6 @@ pnpm dev
 ```text
 basic-express-template/
 ├── src/
-│   └── config/
-│   └── controllers/
-│           └── test.controller.ts
-│   └── lib/
-│   └── middlewares/
-│   └── models/
-│   └── routes/
-│           └── test.routes.ts
-│   ├── app.ts
 │   ├── index.ts
 ├── package.json
 ├── pnpm-lock.yaml
